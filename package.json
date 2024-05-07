@@ -1,0 +1,41 @@
+{
+  "name": "be-dev-node",
+  "version": "1.0.0",
+  "description": "template created by Bramhesh",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node v1/",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALGO8AI/BE-Dev-Node.git"
+  },
+  "author": "Bramhesh Kumar Srivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALGO8AI/BE-Dev-Node/issues"
+  },
+  "homepage": "https://github.com/ALGO8AI/BE-Dev-Node#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mocha": "^10.2.0",
+    "mongoose": "^7.1.0",
+    "mysql": "^2.18.1",
+    "pino": "^8.11.0",
+    "pino-pretty": "^10.0.0",
+    "url": "^0.11.0",
+    "uuid": "^9.0.0"
+  }
+}
